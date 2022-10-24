@@ -1,7 +1,9 @@
 # Prueba Tecnica Santiago Jimenez Raigosa
 
 A quien pueda interesar.
-Espero que se encuentre muy bien. En este repositorio encontrará la API quue permite la realización de un CRUD de vehículos.
+Espero que se encuentre muy bien. En este repositorio encontrará la API quue permite la realización de un CRUD de vehículos. Esta api fue desarrollada en nodeJS conectada a DynamoDB y conectada por medio de
+lambdas.
+
 
 ## addCar 🆕
 
@@ -16,7 +18,7 @@ https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars
 Este metodo GET obtiene un vehiculo segun su "id".
 url
 ```
-https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars
+https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars/{id}
 ```
 
 ## getAllCars 📃
@@ -34,7 +36,7 @@ Este metodo PUT nos permite actualizar la informació de un carro segun su "id".
 
 url:
 ```
-https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars
+https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars/{id}
 ```
 
 ## deleteCar ❌
@@ -43,6 +45,6 @@ Este metodo DELETE nos permite eliminar un carro segun su "id".
 
 url:
 ```
-https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars
+https://74h214aq4a.execute-api.us-east-1.amazonaws.com/cars/{id}
 ```
 
